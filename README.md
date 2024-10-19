@@ -25,8 +25,9 @@ Before you start, ensure you have the following prerequisites installed:
 ```bash
 python -m streamlit run audio_chatbot.py 
 ```
-3. Open the `LM studio-developer` and running the server status .
-4. Ensure the  `Server Port` and the name of `Loaded model` is same in the code with LM studio.
+3. To ensure your microphone permissions are allowed.
+4. Open the `LM studio-developer` and running the server status.
+5. Ensure the  `Server Port` and the name of `Loaded model` is same in the code with LM studio.
 ```bash
 client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 
@@ -36,9 +37,9 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
             stream = True,
         )
 ```
-5. `streamlit_mic_recorder` library for speech recognition.
-6. `torch` library for text-to-speech.
-7. `gTTS` library for text-to-speech.
+6. `streamlit_mic_recorder` library for speech recognition.
+7. `torch` library for text-to-speech.
+8. `gTTS` library for text-to-speech.
 
 You can install the required libraries using pip:
 
