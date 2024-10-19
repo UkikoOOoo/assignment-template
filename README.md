@@ -1,7 +1,5 @@
 # assignment-template
 SD5913 - Assignment template
-# assignment-template
-SD5913 - Assignment template
 
 # 😙 Talking to AI directly with our mouths!!
 
