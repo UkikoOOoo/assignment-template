@@ -25,7 +25,7 @@ Before you start, ensure you have the following prerequisites installed:
 ```bash
 python -m streamlit run audio_chatbot.py 
 ```
-3. To ensure your microphone permissions are allowed.
+3. To ensure your `microphone permissions` are allowed.
 4. Open the `LM studio-developer` and running the server status.
 5. Ensure the  `Server Port` and the name of `Loaded model` is same in the code with LM studio.
 ```bash
